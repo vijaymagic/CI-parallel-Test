@@ -34,7 +34,7 @@ jobs:
         sleep 30
 
   US-EAST-1 Terraform Build:
-    need: US-EAST-1 Prerequesties
+    needs: US-EAST-1 Prerequesties
     runs-on: [us-east-1]
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -71,7 +71,7 @@ jobs:
         sleep 30
 
   AP-SOUTH-1 Terraform Build:
-    need: AP-SOUTH-1 Prerequesties
+    needs: AP-SOUTH-1 Prerequesties
     runs-on: [us-south-1]
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
