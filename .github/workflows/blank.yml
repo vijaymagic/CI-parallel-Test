@@ -33,7 +33,7 @@ jobs:
         echo test, and deploy your project.
         sleep 30
 
-  US-EAST-Terraform Build:
+  US-EAST-TerraformBuild:
     needs: US-EAST-Prerequesties
     runs-on: [us-east-1]
     steps:
@@ -70,7 +70,7 @@ jobs:
         echo test, and deploy your project.
         sleep 30
 
-  AP-SOUTH-Terraform Build:
+  AP-SOUTH-TerraformBuild:
     needs: AP-SOUTH-Prerequesties
     runs-on: [us-south-1]
     steps:
